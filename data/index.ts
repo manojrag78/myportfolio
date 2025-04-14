@@ -211,26 +211,29 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/manojrag78",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://www.instagram.com/manoj_rag?igsh=MXdjODIyb3FrOGQ3cA==",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/manoj-kumar-b-a-44593216b/",
   },
 ];
 
 export const skills = [
   {
-    name: "JavaScript",
-    icon: IconBrandJavascript,
-    color: "#F7DF1E",
-    id: 1,
+    name: "React",
+    icon: IconBrandReact,
+    color: "#61DAFB",
+    id: 3,
     className: "md:col-span-2",
     description:
-      "JavaScript is a versatile scripting language used to create interactive effects and dynamic behavior on websites.",
+      "React is a popular JavaScript library for building user interfaces using a component-based architecture.",
   },
   {
     name: "TypeScript",
@@ -242,31 +245,31 @@ export const skills = [
       "TypeScript is a superset of JavaScript that adds static typing, making code more predictable and easier to debug.",
   },
   {
-    name: "React",
-    icon: IconBrandReact,
-    color: "#61DAFB",
-    id: 3,
+    name: "JavaScript",
+    icon: IconBrandJavascript,
+    color: "#F7DF1E",
+    id: 1,
     className: "md:col-span-2",
     description:
-      "React is a popular JavaScript library for building user interfaces using a component-based architecture.",
+      "JavaScript is a versatile scripting language used to create interactive effects and dynamic behavior on websites.",
   },
   {
-    name: "Next.js",
-    icon: IconBrandNextjs,
-    color: "#000000",
-    id: 4,
+    name: "MySQL",
+    icon: IconBrandMysql,
+    color: "#00758F",
+    id: 12,
     className: "md:col-span-2",
     description:
-      "Next.js is a React framework that enables server-side rendering, static site generation, and powerful routing.",
+      "MySQL is an open-source relational database management system commonly used in web applications for structured data storage.",
   },
   {
-    name: "Node.js",
-    icon: IconBrandNodejs,
-    color: "#339933",
-    id: 5,
+    name: "MSSQL",
+    icon: IconSql,
+    color: "#004E8C",
+    id: 12,
     className: "md:col-span-2",
     description:
-      "Node.js is a runtime environment that lets developers run JavaScript on the server side to build scalable backend applications.",
+      "MSSQL is a relational database management system developed by Microsoft, used for storing and managing structured data in enterprise-level applications.",
   },
   {
     name: "HTML5",
@@ -296,15 +299,6 @@ export const skills = [
       "Tailwind CSS is a utility-first CSS framework that makes it easy to build custom designs directly in your markup.",
   },
   {
-    name: "MongoDB",
-    icon: IconBrandMongodb,
-    color: "#47A248",
-    id: 9,
-    className: "md:col-span-2",
-    description:
-      "MongoDB is a NoSQL database that stores data in JSON-like documents, offering flexibility and scalability for backend applications.",
-  },
-  {
     name: "Git",
     icon: IconBrandGit,
     color: "#F05032",
@@ -312,6 +306,15 @@ export const skills = [
     className: "md:col-span-2",
     description:
       "Git is a version control system that tracks code changes, enabling collaborative development and history tracking.",
+  },
+  {
+    name: "Node.js",
+    icon: IconBrandNodejs,
+    color: "#339933",
+    id: 5,
+    className: "md:col-span-2",
+    description:
+      "Node.js is a runtime environment that lets developers run JavaScript on the server side to build scalable backend applications.",
   },
   {
     name: "Angular",
@@ -323,21 +326,12 @@ export const skills = [
       "Angular is a TypeScript-based web application framework used for building scalable single-page applications.",
   },
   {
-    name: "MySQL",
-    icon: IconBrandMysql,
-    color: "#00758F",
-    id: 12,
+    name: "Next.js",
+    icon: IconBrandNextjs,
+    color: "#fff",
+    id: 4,
     className: "md:col-span-2",
     description:
-      "MySQL is an open-source relational database management system commonly used in web applications for structured data storage.",
-  },
-  {
-    name: "MSSQL",
-    icon: IconSql,
-    color: "#004E8C",
-    id: 12,
-    className: "md:col-span-2",
-    description:
-      "MSSQL is a relational database management system developed by Microsoft, used for storing and managing structured data in enterprise-level applications.",
+      "Next.js is a React framework that enables server-side rendering, static site generation, and powerful routing.",
   },
 ];
