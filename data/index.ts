@@ -335,3 +335,34 @@ export const skills = [
       "Next.js is a React framework that enables server-side rendering, static site generation, and powerful routing.",
   },
 ];
+
+export const myPersonalProjects = [
+  {
+    id: 1,
+    title: "Segregation of Duties (SoD)",
+    des: "Divides critical tasks across multiple people to prevent fraud or error by eliminating conflicting responsibilities. It helps reduce the risk of misuse of privileges or unauthorized transactions.",
+    img: "/sod.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  },
+  {
+    id: 2,
+    title: "ITGC (IT General Controls)",
+    des: "Controls that govern the overall IT environment, ensuring systems are secure, reliable, and support accurate financial reporting. They mitigate risks like unauthorized access, system failures, or data integrity issues.",
+    img: "/itgcIcon.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  },
+  {
+    id: 3,
+    title: "ITAC (IT Application Controls)",
+    des: "Automated controls embedded in business applications to ensure accuracy, completeness, and validity of transactions. They help reduce the risk of processing errors or fraud in specific processes.",
+    img: "/itac.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  },
+  {
+    id: 4,
+    title: "User Access Reviews (UARs)",
+    des: "Periodic checks to ensure users have appropriate access based on their roles. They reduce risk by detecting and removing unnecessary, excessive, or outdated permissions.",
+    img: "/uar.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  },
+];

@@ -4,6 +4,8 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { TextHoverEffect } from "./ui/text-hover-effect";
+import { BackgroundLines } from "./ui/background-lines";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -49,8 +51,22 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m <TextHoverEffect text="Manoj Kumar" />a MEAN and MERN
-            Stack Developer based in India.
+            Hi! I&apos;m
+            <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+              <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
+                <span className="text-purple animate-blink">Manoj Kumar</span>
+              </h2>
+            </BackgroundLines>
+            {/* <div>
+              <Image
+                src="/my-image.jpg"
+                alt="Nanna Photo"
+                className="object-cover"
+                height={200}
+                width={600}
+              />
+            </div> */}
+            a MEAN and MERN Stack Developer based in India.
           </p>
 
           <a href="#about">

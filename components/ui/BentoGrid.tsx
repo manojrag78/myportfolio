@@ -4,6 +4,7 @@ import { IoCopyOutline } from "react-icons/io5";
 const Lottie = dynamic(() => import("react-lottie"), {
   ssr: false,
 });
+// import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -69,6 +70,9 @@ export const BentoGridItem = ({
     const text = "manojkumarba32@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 5000);
   };
 
   return (
