@@ -10,7 +10,7 @@ const PersonalProjects = () => {
   return (
     <section className="w-full">
       <h1 className="heading">
-        My <span className="text-purple">Personal projects</span>
+        My <span className="text-purple">Personal Projects</span>
       </h1>
       <div>
         <Carousel items={cards} />
